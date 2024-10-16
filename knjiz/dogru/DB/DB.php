@@ -26,29 +26,37 @@ class DB
 	 */
 	public static function Get()
 	{
+		
+		
 		if(DB::$Instance == NULL)
 			DB::$Instance = new DB();
 		return DB::$Instance;
 	}
 
-	public static function Set($host, $db_name, $user, $pass, $force = false, $useComp = FALSE)
+	public static function Set($host, $db_name = 'product_pms_server', $user = 'root', $pass, $force = false, $useComp = FALSE)
 	{
+		
 		if(DB::$Instance && ! $force)
 			return DB::$Instance;
 		$db = DB::Get();
+		
 		$regs = array();
 		if(preg_match('/(.*):(.*)/i', $host, $regs))
 		{
 			$host = $regs[1];
 			$db->Port = $regs[2];
+			
 		}
 		else
 			$db->Port = 3306;
 		$db->Host = $host;
-		$db->DbName = $db_name;
-		$db->User = $user;
-		$db->Pass = $pass;
-		$db->UseCompress = $useComp;
+		
+		$db->DbName = 'product_pms_server';
+		$db->User = 'root';
+		
+		$db->Pass = 'Dgr1234!';
+		
+	
 		return $db;
 	}
 
@@ -73,13 +81,16 @@ class DB
 
 	public static function Connect($waitTimeout = 60)
 	{
+	
 		$db = DB::Get();
+		
 		$u = DgrCode::Decode($db->User);
-		$p = DgrCode::Decode($db->Pass);
+		$p = '';
+		
 		if($db->UseCompress)
 		{
 			$db->link = mysqli_init();
-			mysqli_real_connect($db->link, "$db->Host", $u, $p, $db->DbName, $db->Port, null, MYSQLI_CLIENT_COMPRESS);
+			mysqli_real_connect($db->link, "$db->Host", $u, $p, $db->DbName, $db->Port, null);
 		}
 		else
 			$db->link = mysqli_connect($db->Host, $u, $p, $db->DbName, $db->Port);
@@ -112,20 +123,17 @@ class DB
 
 	public static function SelectDb($db)
 	{
+		
 		return mysqli_select_db(DB::Get()->link, $db);
 	}
 
 	public static function MySqlLog($query, $type = 1, $description = '')
 	{
-        global $SITE_TIMEZONE;
-        if(!isset($SITE_TIMEZONE))
-            $SITE_TIMEZONE = "Etc/GMT-3";
-        date_default_timezone_set($SITE_TIMEZONE);
-
 		$rs = array();
 		$t1 = 1000 * microtime(true);
 		$isDebug = LibLoader::IsLoaded(LIB_DEBUG) && Debug::$IsAktif;
 		$db = DB::Get();
+		
 		if (time() - $db->lastTime >= $db->WaitTimeout)
 			self::Reconnect();
 		if($query != '')
@@ -231,16 +239,16 @@ class DB
 			$query = StringLib::RowTrim($query);
 			$sonSorguTmpYol = "prv/son_uzun_sorgu.txt";
 			$fmtime = @filemtime($sonSorguTmpYol);
-			if(time() - $fmtime > 5000)
+			if(time() - $fmtime > 180)
 			{
 				$simdi = Tarih::Simdi();
 				file_put_contents($sonSorguTmpYol, $simdi);
-				$body = "<pre>".(time() - $fmtime)."$bilgi\n$query\n$simdi\n" . date('d-m-Y H:i:s', $fmtime);
+				$body = "<pre>$bilgi\n$query\n$simdi\n" . date('d-m-Y H:i:s', $fmtime);
 				$subject = "Çalışma süresi uzun sorgu [ " . App::$URL . " ][ proje=".App::$Kod." ]";
 				if(isset($GLOBALS['version']))
 					$subject .=" [ versiyon :".$GLOBALS['version']." ]";
 				$to = 'destek@dgryazilim.net';
-//				Mailer::Send($to, $subject, $body);
+				Mailer::Send($to, $subject, $body);
 			}
 		}
 

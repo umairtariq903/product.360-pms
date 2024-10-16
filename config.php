@@ -1,4 +1,5 @@
-<?php
+<?php 
+
 if (preg_match("/config\.php/", $_SERVER['SCRIPT_NAME']))
 {
 	header('Location:index.php?');
@@ -6,12 +7,13 @@ if (preg_match("/config\.php/", $_SERVER['SCRIPT_NAME']))
 }
 
 $SITE_TIMEZONE = "Europe/Amsterdam";
-//$SITE_KLASORU = 'D:/xampp/htdocs/PmsServer/';
-$SITE_KLASORU = '/var/www/vhosts/product.360-pms.com/httpdocs/';
-$SITE_URL = "https://".$_SERVER['HTTP_HOST']."/";
-//$SITE_URL = "http://".$_SERVER['HTTP_HOST']."/PmsServer/";
 
-$STATUS = 'PRODUCTION' ; // TEST | PRODUCTION
+$SITE_KLASORU = 'C:/xampp/xampp_7.2/htdocs/PmsServer/';
+// $SITE_KLASORU = '/var/www/vhosts/product.360-pms.com/httpdocs/';
+// $SITE_URL = "https://".$_SERVER['HTTP_HOST']."/";
+$SITE_URL = "http://".$_SERVER['HTTP_HOST']."/PmsServer/";
+
+$STATUS = 'TEST' ; // TEST | PRODUCTION
 require_once 'knjiz/LibLoader.php';
 //require_once '../dgr/dogru_libs_net/LibLoader.php';
 $DebugIsActive = false;

@@ -7,7 +7,11 @@ class AdminImportsDetayPage extends AppPageController
         if($this->Data->Id > 0)
             $liste = $this->Data->AttributesInfo;
         $this->AddJsVar("AttributesData", $liste);
-        $pAttributes = PAttributeDb::Get()->SetOrderByExp("id ASC")->GetList(array("IsVendor" => Condition::EQ(1)));
+
+        // $pAttributes = PAttributeDb::Get()->SetOrderByExp("id ASC")->GetList(array("IsVendor" => Condition::EQ(1)));
+		//Get all fields
+		$pAttributes = PAttributeDb::Get()->SetOrderByExp("id ASC")->GetList();
+
         $attrs = [];
         foreach ($pAttributes as $pAttribute)
             $attrs[$pAttribute->Id] = $pAttribute->Name;

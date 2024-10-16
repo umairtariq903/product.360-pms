@@ -8,10 +8,10 @@ if (preg_match("/config\.php/", $_SERVER['SCRIPT_NAME']))
 
 $SITE_TIMEZONE = "Europe/Amsterdam";
 
-$SITE_KLASORU = 'C:/xampp/xampp_7.2/htdocs/PMS_SERVER/';
+$SITE_KLASORU = 'C:/xampp/xampp_7.2/htdocs/product.360-pms/';
 // $SITE_KLASORU = '/var/www/vhosts/product.360-pms.com/httpdocs/';
 // $SITE_URL = "https://".$_SERVER['HTTP_HOST']."/";
-$SITE_URL = "http://".$_SERVER['HTTP_HOST']."/PMS_SERVER/";
+$SITE_URL = "http://".$_SERVER['HTTP_HOST']."/product.360-pms/";
 
 $STATUS = 'TEST' ; // TEST | PRODUCTION
 require_once 'knjiz/LibLoader.php';

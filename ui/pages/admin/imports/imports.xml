@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="PageInfo">
+	<Version>1</Version>
+	<Name>imports</Name>
+	<MenuName></MenuName>
+	<FullPath>ui/pages/admin/imports</FullPath>
+	<PageTitle>Imports</PageTitle>
+	<Type>2</Type>
+	<ModelBase>Import</ModelBase>
+	<Columns type="array">
+		<i_0>{"Name":"Id","O":"DESC","W":"70px"}</i_0>
+		<i_1>{"Name":"VendorId","D":"Vendor","T":"VarVendorList"}</i_1>
+		<i_2>{"Name":"ImportType","T":["1=main","2=feed"],"TP":{}}</i_2>
+		<i_3>{"Name":"Name"}</i_3>
+		<i_4>{"Name":"FromAt","T":"VarImportFromAtList"}</i_4>
+	</Columns>
+	<PhpLibs></PhpLibs>
+	<JsLibs></JsLibs>
+	<LinkType>0</LinkType>
+	<PageWidth>0</PageWidth>
+	<PageHeight>0</PageHeight>
+	<JsPageName>AdminImports</JsPageName>
+	<JsDetailPage>PAGE_AdminImportsDetay</JsDetailPage>
+	<DbListProps type="array">
+		<i_ShowSearch>0</i_ShowSearch>
+		<i_ShowNewButton>1</i_ShowNewButton>
+		<i_NewButtonText>Add Import</i_NewButtonText>
+		<i_OutputExcel>0</i_OutputExcel>
+		<i_OutputPdf>0</i_OutputPdf>
+		<i_OutputWord>0</i_OutputWord>
+	</DbListProps>
+	<DbFormProps type="array">
+	</DbFormProps>
+	<RowAttributes>FromAt</RowAttributes>
+	<DbListActions type="array">
+		<i_0 type="stdClass">
+			<Id>-1</Id>
+			<icon></icon>
+			<Type></Type>
+			<text>Run Import</text>
+			<auth></auth>
+			<CallBackFunc>RunImport</CallBackFunc>
+		</i_0>
+	</DbListActions>
+</root>

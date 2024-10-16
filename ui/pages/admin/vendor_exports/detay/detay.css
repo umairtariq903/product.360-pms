@@ -1,0 +1,31 @@
+div.chosen-container{
+    width: 100% !important;
+}
+td[field="Operator"]{
+    width: 7% !important;
+}
+td[field="ConditionRule"],td[field="PAttributeId"]{
+    width: 30% !important;
+}
+.button_panel_bs{
+    display: none;
+}
+.button_panel_bs.manuel{
+    display: block;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+
+tr.data_row[operator='OR'] button.add-and-row{
+    display: none;
+}
+
+.filter-list-content button[div_id]{
+    display: none;
+}
+div[field_name]{
+    margin-bottom: 20px;
+}

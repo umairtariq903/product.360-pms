@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="PageInfo">
+	<Version>1</Version>
+	<Name>vendor_products</Name>
+	<MenuName></MenuName>
+	<FullPath>ui/pages/admin/vendor_products</FullPath>
+	<PageTitle></PageTitle>
+	<Type>2</Type>
+	<ModelBase>VendorProduct</ModelBase>
+	<Columns type="array">
+		<i_0>{"Name":"Id","D":"PMS ID","T":"string"}</i_0>
+		<i_1>{"Name":"VendorId","T":"VarVendorList"}</i_1>
+		<i_2>{"Name":"Ean"}</i_2>
+		<i_3>{"Name":"Sku"}</i_3>
+		<i_4>{"Name":"Stock"}</i_4>
+		<i_5>{"Name":"Price"}</i_5>
+		<i_6>{"Name":"Delivery"}</i_6>
+		<i_7>{"Name":"Title"}</i_7>
+	</Columns>
+	<PhpLibs></PhpLibs>
+	<JsLibs></JsLibs>
+	<LinkType>0</LinkType>
+	<PageWidth>0</PageWidth>
+	<PageHeight>0</PageHeight>
+	<JsPageName>AdminVendorProducts</JsPageName>
+	<JsDetailPage></JsDetailPage>
+	<DbListProps type="array">
+	</DbListProps>
+	<DbFormProps type="array">
+	</DbFormProps>
+	<RowAttributes></RowAttributes>
+	<DbListActions type="array">
+	</DbListActions>
+</root>

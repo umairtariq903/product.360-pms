@@ -1,0 +1,35 @@
+table.dataTable td{
+	border: 1px solid rgb(200, 153, 86);
+}
+.DataTables_sort_wrapper SPAN{
+	background-color: rgb(213, 178, 88);
+}
+table.dataTable tr.odd { background-color: #F5E6B4; }
+table.dataTable tr.odd td.sorting_1 { background-color: #EDCD93; }
+table.dataTable tr.odd td.sorting_2 { background-color: #EDCD93; }
+table.dataTable tr.odd td.sorting_3 { background-color: #EDCD93; }
+table.dataTable tr.even td.sorting_1 { background-color: #F5E4C5; }
+table.dataTable tr.even td.sorting_2 { background-color: #F5E4C5; }
+table.dataTable tr.even td.sorting_3 { background-color: #F5E4C5; }
+
+TR.odd:hover TD, TR.even:hover TD {
+	background-color: rgb(245, 217, 104);
+}
+.td_input_caption, .td_input_top_caption{
+	background-color: #DBC990 !important;
+}
+.td_input_data {
+	background-color: #F7E29F !important;
+}
+
+.td_input_read {
+	background-color: #E8D8A2 !important;
+}
+
+.jui-table>TBODY>TR:nth-child(even){
+	background: white;
+}
+
+.jui-table>TBODY>TR:nth-child(odd){
+	background: #F5E6B4;
+}

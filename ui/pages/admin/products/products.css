@@ -1,0 +1,10 @@
+tr[existlastsupplier='1'] td[field_name='LastSupplier'],
+tr[existlastsupplier='1'] td[field_name='LastStock'],
+tr[existlastsupplier='1'] td[field_name='LastCost']{
+    background-color: aquamarine;
+}
+tr[existlastsupplier='0'] td[field_name='LastSupplier'],
+tr[existlastsupplier='0'] td[field_name='LastStock'],
+tr[existlastsupplier='0'] td[field_name='LastCost']{
+    background-color: #FFE0DF;
+}

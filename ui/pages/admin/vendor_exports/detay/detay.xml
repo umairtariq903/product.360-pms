@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="PageInfo">
+	<Version>1</Version>
+	<Name>detay</Name>
+	<MenuName></MenuName>
+	<FullPath>ui/pages/admin/vendor_exports/detay</FullPath>
+	<PageTitle></PageTitle>
+	<Type>3</Type>
+	<ModelBase>VendorExport</ModelBase>
+	<Columns type="array">
+		<i_0>{"Name":"Name","RQ":1}</i_0>
+		<i_1>{"Name":"Fields","T":"VarPAttributesExportList","TP":{"Multiple":"1"},"RQ":1}</i_1>
+		<i_2>{"Name":"Type","T":["1=CSV","2=EXCEL"],"TP":{},"W":"100px","RQ":1}</i_2>
+		<i_3>{"Name":"WorkingFrequency","D":"Working Frequency(Minute)","T":"VarInt","TP":{"Multiple":"1"},"W":"10em"}</i_3>
+	</Columns>
+	<PhpLibs></PhpLibs>
+	<JsLibs>JS_ERS_TABLE</JsLibs>
+	<LinkType>0</LinkType>
+	<PageWidth>100</PageWidth>
+	<PageHeight>100</PageHeight>
+	<JsPageName>AdminVendorExportsDetay</JsPageName>
+	<JsDetailPage></JsDetailPage>
+	<DbListProps type="array">
+	</DbListProps>
+	<DbFormProps type="array">
+		<i_CustomSaveFunc>VendorExportSaveFunc</i_CustomSaveFunc>
+	</DbFormProps>
+	<RowAttributes></RowAttributes>
+	<DbListActions type="array">
+	</DbListActions>
+</root>

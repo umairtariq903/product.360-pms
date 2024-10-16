@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="PageInfo">
+	<Version>1</Version>
+	<Name>ozet</Name>
+	<MenuName></MenuName>
+	<FullPath>ui/pages/admin/ozet</FullPath>
+	<PageTitle>Dashboard</PageTitle>
+	<Type>1</Type>
+	<ModelBase></ModelBase>
+	<Columns type="array">
+	</Columns>
+	<PhpLibs></PhpLibs>
+	<JsLibs></JsLibs>
+	<LinkType>0</LinkType>
+	<PageWidth>0</PageWidth>
+	<PageHeight>0</PageHeight>
+	<JsPageName>AdminOzet</JsPageName>
+	<JsDetailPage></JsDetailPage>
+	<DbListProps type="array">
+	</DbListProps>
+	<DbFormProps type="array">
+	</DbFormProps>
+	<RowAttributes></RowAttributes>
+	<DbListActions type="array">
+	</DbListActions>
+</root>

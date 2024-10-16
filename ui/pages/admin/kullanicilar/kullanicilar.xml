@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="PageInfo">
+	<Version>1</Version>
+	<Name>kullanicilar</Name>
+	<MenuName></MenuName>
+	<FullPath>ui/pages/admin/kullanicilar</FullPath>
+	<PageTitle>Users</PageTitle>
+	<Type>2</Type>
+	<ModelBase>User</ModelBase>
+	<Columns type="array">
+		<i_0>{"Name":"Id","O":"DESC","W":"70px"}</i_0>
+		<i_1>{"Name":"Email"}</i_1>
+		<i_2>{"Name":"Name"}</i_2>
+		<i_3>{"Name":"Surname"}</i_3>
+		<i_4>{"Name":"Active","D":"Status","T":"Aktif\/Pasif"}</i_4>
+		<i_5>{"Name":"UserType","D":"Type","T":"VarKullaniciTurList"}</i_5>
+		<i_6>{"Name":"LoginCount"}</i_6>
+		<i_7>{"Name":"LastLoginDate"}</i_7>
+		<i_8>{"Name":"MembershipDate"}</i_8>
+	</Columns>
+	<PhpLibs></PhpLibs>
+	<JsLibs></JsLibs>
+	<LinkType>0</LinkType>
+	<PageWidth>0</PageWidth>
+	<PageHeight>0</PageHeight>
+	<JsPageName>AdminKullanicilar</JsPageName>
+	<JsDetailPage>PAGE_AdminKullanicilarDetay</JsDetailPage>
+	<DbListProps type="array">
+		<i_ShowSearch>0</i_ShowSearch>
+		<i_ShowNewButton>1</i_ShowNewButton>
+	</DbListProps>
+	<DbFormProps type="array">
+	</DbFormProps>
+	<RowAttributes></RowAttributes>
+	<DbListActions type="array">
+	</DbListActions>
+</root>

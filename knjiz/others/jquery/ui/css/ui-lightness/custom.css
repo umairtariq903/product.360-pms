@@ -1,0 +1,45 @@
+table.dataTable td{
+	border: 1px solid lightblue;
+}
+.DataTables_sort_wrapper SPAN{
+	background-color: lightblue;
+}
+
+.jui-table-wrapper tr.odd { background-color: #E2E4FF; }
+.jui-table-wrapper tr.even { background-color: white; }
+.jui-table-wrapper tr.odd td.sorting_1 { background-color: #D3D6FF; }
+.jui-table-wrapper tr.odd td.sorting_2 { background-color: #DADCFF; }
+.jui-table-wrapper tr.odd td.sorting_3 { background-color: #E0E2FF; }
+.jui-table-wrapper tr.even td.sorting_1 { background-color: #EAEBFF; }
+.jui-table-wrapper tr.even td.sorting_2 { background-color: #F2F3FF; }
+.jui-table-wrapper tr.even td.sorting_3 { background-color: #F9F9FF; }
+
+
+.bsui-table-wrapper tr.odd td.sorting_1 { background-color: #a5c9dd; }
+.bsui-table-wrapper tr.odd td.sorting_2 { background-color: #a5c9dd; }
+.bsui-table-wrapper tr.odd td.sorting_3 { background-color: #a5c9dd; }
+.bsui-table-wrapper tr.even td.sorting_1 { background-color: #c3e2f3; }
+.bsui-table-wrapper tr.even td.sorting_2 { background-color: #c3e2f3; }
+.bsui-table-wrapper tr.even td.sorting_3 { background-color: #c3e2f3; }
+
+TR.odd:hover TD, TR.even:hover TD{
+	background-color: lightsteelblue;
+}
+
+.jui-table>TBODY>TR:nth-child(even){
+	background: #eaf5f1;
+}
+
+.jui-table>TBODY>TR:nth-child(odd){
+	background: white;
+}
+
+@media all and (max-width: 639px){
+	DIV.toolbar.ui-buttonset SPAN.ui-button-text{
+		display: none;
+	}
+	DIV.toolbar.ui-buttonset button{
+		min-height: 28px;
+		min-width: 32px;
+	}
+}

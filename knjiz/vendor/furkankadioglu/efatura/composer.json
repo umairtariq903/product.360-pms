@@ -1,0 +1,40 @@
+{
+    "name": "furkankadioglu/efatura",
+    "description": "EFatura",
+    "keywords": [
+        "efatura",
+        "fatura",
+        "e-fatura",
+        "e-arşiv",
+        "earşiv"
+    ],
+    "homepage": "https://github.com/furkankadioglu/efatura",
+    "license": "MIT",
+    "version": "1.9.4",
+    "authors": [
+        {
+            "name": "Furkan Kadıoğlu",
+            "email": "furkan.kadioglu@gmail.com",
+            "homepage": "http://furkankadioglu.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9 <=7.4.15",
+        "guzzlehttp/guzzle": "^6.5|^7.0",
+        "ramsey/uuid": "^3.7|^4.0",
+        "kwn/number-to-words": "^1.9",
+        "mpdf/mpdf": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "furkankadioglu\\eFatura\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --debug"
+    },
+    "minimum-stability": "stable"
+}

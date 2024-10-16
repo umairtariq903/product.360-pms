@@ -1,0 +1,38 @@
+{
+  "tr":
+  {
+    "kopyalandi": "Kopyalandı",
+    "exper_card_aciklama": "İletişim, sosyal medya, şirket, banka bilgileri, ürünler/hizmetler ve daha fazlasını bir araya getirerek şık dijital kartvizitler yaratın. \"Exper Card\" ile dijital dünyada etkileyici bir iz bırakın!",
+    "exper_card": "Exper Card",
+    "urunler_hizmetler": "Ürünler / Hizmetler",
+    "banka_bilgileri": "Banka Bilgileri",
+    "sirket_bilgileri": "Şirket Bilgileri",
+    "sosyal_medya": "Sosyal Medya",
+    "iletisim_bilgileri": "İletişim Bilgileri",
+    "takip_et": "Takip Et",
+    "rehbere_ekle": "Rehbere Ekle",
+    "urunler_hizmetler_withbr": "ÜRÜNLER<br/>HİZMETLER",
+    "banka_bilgileri_withbr": "BANKA<br/>BİLGİLERİ",
+    "sirket_bilgileri_withbr": "ŞİRKET<br/>BİLGİLERİ",
+    "sosyal_medya_withbr": "SOSYAL<br/>MEDYA",
+    "iletisim_bilgileri_withbr": "İLETİŞİM<br/>BİLGİLERİ"
+  },
+  "en":
+  {
+    "kopyalandi": "Copied",
+    "exper_card_aciklama": "\"Exper Card\" allows you to create elegant digital business cards by bringing together contact, social media, company, bank information, products/services, and more. Leave an impressive mark in the digital world!",
+    "exper_card": "Exper Card",
+    "urunler_hizmetler": "PRODUCTS / SERVICES",
+    "banka_bilgileri": "BANK ACCOUNT",
+    "sirket_bilgileri": "COMPANY INFO",
+    "sosyal_medya": "SOCIAL MEDIA",
+    "iletisim_bilgileri": "CONTACT INFO",
+    "takip_et": "Follow",
+    "rehbere_ekle": "Add Contacts",
+    "urunler_hizmetler_withbr": "PRODUCTS<br/>SERVICES",
+    "banka_bilgileri_withbr": "BANK<br/>ACCOUNT",
+    "sirket_bilgileri_withbr": "COMPANY<br/>INFO",
+    "sosyal_medya_withbr": "SOCIAL<br/>MEDIA",
+    "iletisim_bilgileri_withbr": "CONTACT<br/>INFO"
+  }
+}

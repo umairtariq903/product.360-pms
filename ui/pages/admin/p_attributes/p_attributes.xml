@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="PageInfo">
+	<Version>1</Version>
+	<Name>p_attributes</Name>
+	<MenuName></MenuName>
+	<FullPath>ui/pages/admin/p_attributes</FullPath>
+	<PageTitle>Product Attributes</PageTitle>
+	<Type>2</Type>
+	<ModelBase>PAttribute</ModelBase>
+	<Columns type="array">
+		<i_0>{"Name":"Id","W":"70px"}</i_0>
+		<i_1>{"Name":"Name"}</i_1>
+		<i_2>{"Name":"ProductFieldName","D":"Display Name"}</i_2>
+		<i_3>{"Name":"Type","T":["1=text","2=numeric"],"TP":{}}</i_3>
+		<i_4>{"Name":"IsVendor"}</i_4>
+	</Columns>
+	<PhpLibs></PhpLibs>
+	<JsLibs></JsLibs>
+	<LinkType>0</LinkType>
+	<PageWidth>0</PageWidth>
+	<PageHeight>0</PageHeight>
+	<JsPageName>AdminPAttributes</JsPageName>
+	<JsDetailPage>PAGE_AdminPAttributesDetay</JsDetailPage>
+	<DbListProps type="array">
+		<i_ShowSearch>0</i_ShowSearch>
+		<i_ShowNewButton>1</i_ShowNewButton>
+	</DbListProps>
+	<DbFormProps type="array">
+	</DbFormProps>
+	<RowAttributes></RowAttributes>
+	<DbListActions type="array">
+	</DbListActions>
+</root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="PageInfo">
+	<Version>1</Version>
+	<Name>detay</Name>
+	<MenuName></MenuName>
+	<FullPath>ui/pages/admin/imports/detay</FullPath>
+	<PageTitle>Add/Edit Import</PageTitle>
+	<Type>3</Type>
+	<ModelBase>Import</ModelBase>
+	<Columns type="array">
+		<i_0>{"Name":"VendorId","D":"Vendor","T":"VarVendorList","RQ":1}</i_0>
+		<i_1>{"Name":"ImportType","T":["1=main","2=feed"],"TP":{},"RQ":1}</i_1>
+		<i_2>{"Name":"Name","RQ":1}</i_2>
+		<i_3>{"Name":"FromAt","T":"VarImportFromAtList","RQ":1}</i_3>
+		<i_4>{"Name":"FtpHost","G":"ftp"}</i_4>
+		<i_5>{"Name":"FtpUser","G":"ftp"}</i_5>
+		<i_6>{"Name":"FtpPassword","G":"ftp"}</i_6>
+		<i_7>{"Name":"FtpRemoteDirectory","G":"ftp"}</i_7>
+		<i_8>{"Name":"UrlLink","G":"url"}</i_8>
+		<i_9>{"Name":"FileType","T":["1=Txt","2=Csv","3=Xml","4=Json"],"TP":{},"RQ":1}</i_9>
+		<i_10>{"Name":"CsvDelimeter"}</i_10>
+		<i_11>{"Name":"AutoRun","T":"Aktif\/Pasif","RQ":1}</i_11>
+		<i_12>{"Name":"MinStock","W":"70px"}</i_12>
+		<i_13>{"Name":"PFieldWhereKeys","D":"Where","T":"TextArea","TP":{"TopLabel":"0"},"V":0,"FR":"PFieldWhereKeys_DbFormRender"}</i_13>
+	</Columns>
+	<PhpLibs></PhpLibs>
+	<JsLibs>JS_ERS_TABLE</JsLibs>
+	<LinkType>0</LinkType>
+	<PageWidth>100</PageWidth>
+	<PageHeight>100</PageHeight>
+	<JsPageName>AdminImportsDetay</JsPageName>
+	<JsDetailPage></JsDetailPage>
+	<DbListProps type="array">
+	</DbListProps>
+	<DbFormProps type="array">
+		<i_CustomSaveFunc>ImportSaveFunc</i_CustomSaveFunc>
+	</DbFormProps>
+	<RowAttributes></RowAttributes>
+	<DbListActions type="array">
+	</DbListActions>
+</root>

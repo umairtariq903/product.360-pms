@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="PageInfo">
+	<Version>1</Version>
+	<Name>bilgilerim</Name>
+	<MenuName></MenuName>
+	<FullPath>ui/pages/admin/bilgilerim</FullPath>
+	<PageTitle>Bilgilerim</PageTitle>
+	<Type>3</Type>
+	<ModelBase>User</ModelBase>
+	<Columns type="array">
+		<i_0>{"Name":"Email","RQ":1,"DS":1}</i_0>
+		<i_1>{"Name":"Name","RQ":1}</i_1>
+		<i_2>{"Name":"Surname","RQ":1}</i_2>
+		<i_3>{"Name":"Active","D":"Status","T":"Aktif\/Pasif","RO":1,"RQ":1}</i_3>
+		<i_4>{"Name":"UserType","D":"Type","T":"VarKullaniciTurList","RO":1,"RQ":1}</i_4>
+	</Columns>
+	<PhpLibs></PhpLibs>
+	<JsLibs></JsLibs>
+	<LinkType>0</LinkType>
+	<PageWidth>100</PageWidth>
+	<PageHeight>100</PageHeight>
+	<JsPageName>AdminBilgilerim</JsPageName>
+	<JsDetailPage></JsDetailPage>
+	<DbListProps type="array">
+	</DbListProps>
+	<DbFormProps type="array">
+	</DbFormProps>
+	<RowAttributes></RowAttributes>
+	<DbListActions type="array">
+	</DbListActions>
+</root>

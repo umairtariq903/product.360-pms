@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "classmap": [
+
+        ],
+        "psr-4": {
+            "DogRu\\": "DogRuNS/"
+        }
+    },
+    "require": {
+        "furkankadioglu/efatura": "^1.9",
+        "matthiasmullie/minify": "* 1.3.45",
+        "jeroendesloovere/vcard": "^1.7",
+        "stichoza/google-translate-php": "^4.1"
+    }
+}

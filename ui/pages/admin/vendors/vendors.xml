@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="PageInfo">
+	<Version>1</Version>
+	<Name>vendors</Name>
+	<MenuName></MenuName>
+	<FullPath>ui/pages/admin/vendors</FullPath>
+	<PageTitle>Vendors</PageTitle>
+	<Type>2</Type>
+	<ModelBase>Vendor</ModelBase>
+	<Columns type="array">
+		<i_0>{"Name":"Id","W":"70px"}</i_0>
+		<i_1>{"Name":"Code"}</i_1>
+		<i_2>{"Name":"Name"}</i_2>
+	</Columns>
+	<PhpLibs></PhpLibs>
+	<JsLibs></JsLibs>
+	<LinkType>0</LinkType>
+	<PageWidth>0</PageWidth>
+	<PageHeight>0</PageHeight>
+	<JsPageName>AdminVendors</JsPageName>
+	<JsDetailPage></JsDetailPage>
+	<DbListProps type="array">
+		<i_ShowSearch>0</i_ShowSearch>
+		<i_FullScreen>0</i_FullScreen>
+		<i_OutputPdf>0</i_OutputPdf>
+		<i_OutputWord>0</i_OutputWord>
+	</DbListProps>
+	<DbFormProps type="array">
+	</DbFormProps>
+	<RowAttributes></RowAttributes>
+	<DbListActions type="array">
+	</DbListActions>
+</root>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="MenuPages">
+	<List type="array">
+		<i_0 type="stdClass">
+			<MenuName></MenuName>
+			<Acts type="array">
+				<i_0>admin</i_0>
+			</Acts>
+			<Children type="array">
+				<i_0 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>admin</i_0>
+						<i_1>bilgilerim</i_1>
+					</Acts>
+					<Children type="array">
+					</Children>
+				</i_0>
+				<i_1 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>admin</i_0>
+						<i_1>cikis</i_1>
+					</Acts>
+					<Children type="array">
+					</Children>
+				</i_1>
+				<i_2 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>admin</i_0>
+						<i_1>companies</i_1>
+					</Acts>
+					<Children type="array">
+						<i_0 type="stdClass">
+							<MenuName></MenuName>
+							<Acts type="array">
+								<i_0>admin</i_0>
+								<i_1>companies</i_1>
+								<i_2>detay</i_2>
+							</Acts>
+							<Children type="array">
+							</Children>
+						</i_0>
+					</Children>
+				</i_2>
+				<i_3 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>admin</i_0>
+						<i_1>exports</i_1>
+					</Acts>
+					<Children type="array">
+					</Children>
+				</i_3>
+				<i_4 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>admin</i_0>
+						<i_1>import_logs</i_1>
+					</Acts>
+					<Children type="array">
+					</Children>
+				</i_4>
+				<i_5 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>admin</i_0>
+						<i_1>imports</i_1>
+					</Acts>
+					<Children type="array">
+						<i_0 type="stdClass">
+							<MenuName></MenuName>
+							<Acts type="array">
+								<i_0>admin</i_0>
+								<i_1>imports</i_1>
+								<i_2>detay</i_2>
+							</Acts>
+							<Children type="array">
+							</Children>
+						</i_0>
+					</Children>
+				</i_5>
+				<i_6 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>admin</i_0>
+						<i_1>kullanicilar</i_1>
+					</Acts>
+					<Children type="array">
+						<i_0 type="stdClass">
+							<MenuName></MenuName>
+							<Acts type="array">
+								<i_0>admin</i_0>
+								<i_1>kullanicilar</i_1>
+								<i_2>detay</i_2>
+							</Acts>
+							<Children type="array">
+							</Children>
+						</i_0>
+					</Children>
+				</i_6>
+				<i_7 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>admin</i_0>
+						<i_1>ozet</i_1>
+					</Acts>
+					<Children type="array">
+					</Children>
+				</i_7>
+				<i_8 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>admin</i_0>
+						<i_1>p_attributes</i_1>
+					</Acts>
+					<Children type="array">
+						<i_0 type="stdClass">
+							<MenuName></MenuName>
+							<Acts type="array">
+								<i_0>admin</i_0>
+								<i_1>p_attributes</i_1>
+								<i_2>detay</i_2>
+							</Acts>
+							<Children type="array">
+							</Children>
+						</i_0>
+					</Children>
+				</i_8>
+				<i_9 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>admin</i_0>
+						<i_1>products</i_1>
+					</Acts>
+					<Children type="array">
+						<i_0 type="stdClass">
+							<MenuName></MenuName>
+							<Acts type="array">
+								<i_0>admin</i_0>
+								<i_1>products</i_1>
+								<i_2>onizle</i_2>
+							</Acts>
+							<Children type="array">
+							</Children>
+						</i_0>
+					</Children>
+				</i_9>
+				<i_10 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>admin</i_0>
+						<i_1>projects</i_1>
+					</Acts>
+					<Children type="array">
+						<i_0 type="stdClass">
+							<MenuName></MenuName>
+							<Acts type="array">
+								<i_0>admin</i_0>
+								<i_1>projects</i_1>
+								<i_2>detay</i_2>
+							</Acts>
+							<Children type="array">
+							</Children>
+						</i_0>
+					</Children>
+				</i_10>
+				<i_11 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>admin</i_0>
+						<i_1>run_import</i_1>
+					</Acts>
+					<Children type="array">
+					</Children>
+				</i_11>
+				<i_12 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>admin</i_0>
+						<i_1>update_data</i_1>
+					</Acts>
+					<Children type="array">
+					</Children>
+				</i_12>
+				<i_13 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>admin</i_0>
+						<i_1>vendor_exports</i_1>
+					</Acts>
+					<Children type="array">
+						<i_0 type="stdClass">
+							<MenuName></MenuName>
+							<Acts type="array">
+								<i_0>admin</i_0>
+								<i_1>vendor_exports</i_1>
+								<i_2>detay</i_2>
+							</Acts>
+							<Children type="array">
+							</Children>
+						</i_0>
+					</Children>
+				</i_13>
+				<i_14 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>admin</i_0>
+						<i_1>vendor_products</i_1>
+					</Acts>
+					<Children type="array">
+					</Children>
+				</i_14>
+				<i_15 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>admin</i_0>
+						<i_1>vendors</i_1>
+					</Acts>
+					<Children type="array">
+					</Children>
+				</i_15>
+			</Children>
+		</i_0>
+		<i_1 type="stdClass">
+			<MenuName></MenuName>
+			<Acts type="array">
+				<i_0>ajax</i_0>
+			</Acts>
+			<Children type="array">
+			</Children>
+		</i_1>
+		<i_2 type="stdClass">
+			<MenuName>Ana sayfa</MenuName>
+			<Acts type="array">
+				<i_0>default</i_0>
+			</Acts>
+			<Children type="array">
+			</Children>
+		</i_2>
+		<i_3 type="stdClass">
+			<MenuName></MenuName>
+			<Acts type="array">
+				<i_0>guest</i_0>
+			</Acts>
+			<Children type="array">
+				<i_0 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>guest</i_0>
+						<i_1>giris_yap</i_1>
+					</Acts>
+					<Children type="array">
+					</Children>
+				</i_0>
+				<i_1 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>guest</i_0>
+						<i_1>iletisim</i_1>
+					</Acts>
+					<Children type="array">
+					</Children>
+				</i_1>
+				<i_2 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>guest</i_0>
+						<i_1>parola_yenile</i_1>
+					</Acts>
+					<Children type="array">
+					</Children>
+				</i_2>
+			</Children>
+		</i_3>
+		<i_4 type="stdClass">
+			<MenuName></MenuName>
+			<Acts type="array">
+				<i_0>mudur</i_0>
+			</Acts>
+			<Children type="array">
+				<i_0 type="stdClass">
+					<MenuName></MenuName>
+					<Acts type="array">
+						<i_0>mudur</i_0>
+						<i_1>ozet</i_1>
+					</Acts>
+					<Children type="array">
+					</Children>
+				</i_0>
+			</Children>
+		</i_4>
+		<i_5 type="stdClass">
+			<MenuName></MenuName>
+			<Acts type="array">
+				<i_0>p404</i_0>
+			</Acts>
+			<Children type="array">
+			</Children>
+		</i_5>
+	</List>
+</root>

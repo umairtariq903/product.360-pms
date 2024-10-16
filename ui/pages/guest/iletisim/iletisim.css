@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+}
+.bilgi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.giris-btn{
+    margin-top: 50px;
+}
+
+a,
+a:hover{
+    color: white;
+}

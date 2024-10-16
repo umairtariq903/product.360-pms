@@ -1,0 +1,31 @@
+<pre>/**
+* @Counter: 4
+* @Description: AppFileDb:GetList
+* @Cost: 0.096923828125
+* @TotalCost: 1039.5280761719
+* @Time: 1053.130865097
+* @RowCount: 0
+* @Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+		ORDER BY sira,  1' at line 3
+* @Url: /?import_vendor_images=1
+*/
+
+SELECT *
+FROM app_file a
+WHERE a.id IN (9740,9741,9742,9743,9744,9745,9746,9747,9748,9749,9750,9751,9752,9753,9754,9755,9756,9757,9758,9759,)
+ORDER BY sira,  1
+#0  DB::MySqlLog() called at [/var/www/vhosts/product.360-pms.com/httpdocs/knjiz/dogru/DB/DB.php:413]
+#1  DB::FetchRows() called at [/var/www/vhosts/product.360-pms.com/httpdocs/knjiz/dogru/DB/DB.php:459]
+#2  DB::FetchAssoc() called at [/var/www/vhosts/product.360-pms.com/httpdocs/knjiz/dogru/DbModel/ModelDb.php:767]
+#3  ModelDb->GetList() called at [/var/www/vhosts/product.360-pms.com/httpdocs/knjiz/dogru/DB/VarTypes.php:1148]
+#4  VarAppFileList->InitProp() called at [/var/www/vhosts/product.360-pms.com/httpdocs/knjiz/dogru/DB/IVarBase.php:45]
+#5  IVarBase->__call() called at [/var/www/vhosts/product.360-pms.com/httpdocs/knjiz/dogru/DbModel/ModelBase.php:239]
+#6  ModelBase->__get() called at [/var/www/vhosts/product.360-pms.com/httpdocs/code/objects/Product.php:37]
+#7  Product->Init() called at [/var/www/vhosts/product.360-pms.com/httpdocs/knjiz/dogru/DbModel/ModelDb.php:764]
+#8  ModelDb->{closure}() called at [/var/www/vhosts/product.360-pms.com/httpdocs/knjiz/functions.php:362]
+#9  CallUserFunc() called at [/var/www/vhosts/product.360-pms.com/httpdocs/knjiz/dogru/DB/DB.php:422]
+#10 DB::FetchRows() called at [/var/www/vhosts/product.360-pms.com/httpdocs/knjiz/dogru/DB/DB.php:459]
+#11 DB::FetchAssoc() called at [/var/www/vhosts/product.360-pms.com/httpdocs/knjiz/dogru/DbModel/ModelDb.php:767]
+#12 ModelDb->GetList() called at [/var/www/vhosts/product.360-pms.com/httpdocs/knjiz/dogru/DbModel/ModelDb.php:233]
+#13 ModelDb->GetById() called at [/var/www/vhosts/product.360-pms.com/httpdocs/code/objects/VendorProduct.php:13]
+#14 VendorProduct->__get() called at [/var/www/vhosts/product.360-pms.com/httpdocs/index.php:217]

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="PageInfo">
+	<Version>1</Version>
+	<Name>import_logs</Name>
+	<MenuName></MenuName>
+	<FullPath>ui/pages/admin/import_logs</FullPath>
+	<PageTitle>Import Logs</PageTitle>
+	<Type>2</Type>
+	<ModelBase>ImportLog</ModelBase>
+	<Columns type="array">
+		<i_0>{"Name":"Id","O":"DESC","W":"70px"}</i_0>
+		<i_1>{"Name":"ImportName"}</i_1>
+		<i_2>{"Name":"AddedProductCount"}</i_2>
+		<i_3>{"Name":"UpdatedProductCount"}</i_3>
+		<i_4>{"Name":"SkipProductCount"}</i_4>
+		<i_5>{"Name":"EmptyEanCount"}</i_5>
+		<i_6>{"Name":"IncorrectEanCount"}</i_6>
+		<i_7>{"Name":"StartedTime"}</i_7>
+		<i_8>{"Name":"FinishedTime"}</i_8>
+	</Columns>
+	<PhpLibs></PhpLibs>
+	<JsLibs></JsLibs>
+	<LinkType>0</LinkType>
+	<PageWidth>0</PageWidth>
+	<PageHeight>0</PageHeight>
+	<JsPageName>AdminImportLogs</JsPageName>
+	<JsDetailPage></JsDetailPage>
+	<DbListProps type="array">
+	</DbListProps>
+	<DbFormProps type="array">
+	</DbFormProps>
+	<RowAttributes></RowAttributes>
+	<DbListActions type="array">
+	</DbListActions>
+</root>

@@ -1,0 +1,30 @@
+.login{
+    background-color: #3d3d3d !important;
+}
+.login .content .input-icon {
+    border-left: 2px solid #ff9800 !important;
+}
+.btn.green:not(.btn-outline) {
+    background-color: #ff9800;
+    border-color: #ff9800;
+}
+.btn.green:not(.btn-outline):hover {
+    background-color: #c77d0f;
+    border-color: #c77d0f;
+}
+.field-div{
+    display: none;
+}
+@media (max-width: 480px)
+{
+    .login .content {
+        width: 360px;
+    }
+}
+@media (max-width: 380px)
+{
+    .login .content {
+        width: auto;
+        margin: 20px;
+    }
+}

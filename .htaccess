@@ -1,0 +1,20 @@
+RewriteEngine On
+RewriteRule ^pravi/(.*) index.php?act=js&js=$1 [L]
+
+
+#RewriteCond %{REQUEST_URI} ^/giris$
+RewriteRule ^giris$ index.php?act=guest&act2=giris_yap&islem=login [NC,L]
+#RewriteCond %{REQUEST_URI} ^/kayit$
+RewriteRule ^kayit$ index.php?act=guest&act2=giris_yap&islem=register [NC,L]
+#RewriteCond %{REQUEST_URI} ^/parola-sifirla$
+RewriteRule ^parola-sifirla$ index.php?act=guest&act2=giris_yap&islem=forget [NC,L]
+#RewriteCond %{REQUEST_URI} ^/parola-yenile/(.*)
+RewriteRule ^parola-yenile/(.*) index.php?act=guest&act2=parola_yenile&id=$1 [NC,L]
+#RewriteCond %{REQUEST_URI} ^/adminpanel$
+RewriteRule ^adminpanel$ index.php?act=guest&act2=giris_yap [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^act/(.*) index.php?act_str=$1 [L,QSA]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?guest_str=$1 [L,QSA]

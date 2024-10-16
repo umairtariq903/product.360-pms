@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="PageInfo">
+	<Version>1</Version>
+	<Name>detay</Name>
+	<MenuName></MenuName>
+	<FullPath>ui/pages/admin/kullanicilar/detay</FullPath>
+	<PageTitle>User Add/Update</PageTitle>
+	<Type>3</Type>
+	<ModelBase>User</ModelBase>
+	<Columns type="array">
+		<i_0>{"Name":"DbFormSubTitle","D":"User Login Information"}</i_0>
+		<i_1>{"Name":"Email","RQ":1}</i_1>
+		<i_2>{"Name":"Name","RQ":1}</i_2>
+		<i_3>{"Name":"Surname","RQ":1}</i_3>
+		<i_4>{"Name":"Active","D":"Status","T":"Aktif\/Pasif","RQ":1}</i_4>
+		<i_5>{"Name":"UserType","D":"Type","T":"VarKullaniciTurKisiyeGoreList","RQ":1}</i_5>
+		<i_6>{"Name":"DbFormSubTitle","D":"Set Password"}</i_6>
+		<i_7>{"Name":"Password","T":"Password","FR":"Password_DbFormRender"}</i_7>
+		<i_8>{"Name":"PasswordAgain","D":"Password Again","T":"Password","RQ":1,"FR":"PasswordAgain_DbFormRender"}</i_8>
+	</Columns>
+	<PhpLibs></PhpLibs>
+	<JsLibs></JsLibs>
+	<LinkType>0</LinkType>
+	<PageWidth>100</PageWidth>
+	<PageHeight>100</PageHeight>
+	<JsPageName>AdminKullanicilarDetay</JsPageName>
+	<JsDetailPage></JsDetailPage>
+	<DbListProps type="array">
+	</DbListProps>
+	<DbFormProps type="array">
+	</DbFormProps>
+	<RowAttributes></RowAttributes>
+	<DbListActions type="array">
+	</DbListActions>
+</root>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="PageInfo">
+	<Version>1</Version>
+	<Name>vendor_exports</Name>
+	<MenuName></MenuName>
+	<FullPath>ui/pages/admin/vendor_exports</FullPath>
+	<PageTitle></PageTitle>
+	<Type>2</Type>
+	<ModelBase>VendorExport</ModelBase>
+	<Columns type="array">
+		<i_0>{"Name":"Name","W":"20%"}</i_0>
+		<i_1>{"Name":"LastWorkingTime","W":"15%"}</i_1>
+		<i_2>{"Name":"WorkingFrequency","W":"10%"}</i_2>
+		<i_3>{"Name":"Type","T":["1=CSV","2=EXCEL"],"TP":{}}</i_3>
+		<i_4>{"Name":"Link","W":"30%"}</i_4>
+	</Columns>
+	<PhpLibs></PhpLibs>
+	<JsLibs></JsLibs>
+	<LinkType>0</LinkType>
+	<PageWidth>0</PageWidth>
+	<PageHeight>0</PageHeight>
+	<JsPageName>AdminVendorExports</JsPageName>
+	<JsDetailPage>PAGE_AdminVendorExportsDetay</JsDetailPage>
+	<DbListProps type="array">
+		<i_ShowSearch>0</i_ShowSearch>
+		<i_ShowNewButton>1</i_ShowNewButton>
+		<i_OutputPdf>0</i_OutputPdf>
+		<i_OutputWord>0</i_OutputWord>
+	</DbListProps>
+	<DbFormProps type="array">
+	</DbFormProps>
+	<RowAttributes></RowAttributes>
+	<DbListActions type="array">
+		<i_0 type="stdClass">
+			<Id>-1</Id>
+			<icon>ui-icon-copy</icon>
+			<Type></Type>
+			<text>Copy</text>
+			<auth></auth>
+			<CallBackFunc>LinkKopyala</CallBackFunc>
+		</i_0>
+		<i_1 type="stdClass">
+			<Id>-1</Id>
+			<icon>ui-icon-carat-1-s</icon>
+			<Type></Type>
+			<text>Download</text>
+			<auth></auth>
+			<CallBackFunc>Indir</CallBackFunc>
+		</i_1>
+		<i_2 type="stdClass">
+			<Id>-1</Id>
+			<icon>ui-icon-refresh</icon>
+			<Type></Type>
+			<text>Update</text>
+			<auth></auth>
+			<CallBackFunc>Guncelle</CallBackFunc>
+		</i_2>
+		<i_3 type="stdClass">
+			<Id>-1</Id>
+			<icon>ui-icon-trash</icon>
+			<Type>Delete</Type>
+			<text>Delete</text>
+			<auth></auth>
+			<CallBackFunc>DataGridDelete</CallBackFunc>
+		</i_3>
+	</DbListActions>
+</root>

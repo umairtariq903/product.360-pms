@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="PageInfo">
+	<Version>1</Version>
+	<Name>detay</Name>
+	<MenuName></MenuName>
+	<FullPath>ui/pages/admin/p_attributes/detay</FullPath>
+	<PageTitle></PageTitle>
+	<Type>3</Type>
+	<ModelBase>PAttribute</ModelBase>
+	<Columns type="array">
+		<i_0>{"Name":"Name","RQ":1}</i_0>
+		<i_1>{"Name":"ProductFieldName","D":"Display Name","RQ":1}</i_1>
+		<i_2>{"Name":"Type","T":["1=text","2=numeric"],"TP":{},"RQ":1}</i_2>
+	</Columns>
+	<PhpLibs></PhpLibs>
+	<JsLibs></JsLibs>
+	<LinkType>0</LinkType>
+	<PageWidth>100</PageWidth>
+	<PageHeight>100</PageHeight>
+	<JsPageName>AdminPAttributesDetay</JsPageName>
+	<JsDetailPage></JsDetailPage>
+	<DbListProps type="array">
+	</DbListProps>
+	<DbFormProps type="array">
+	</DbFormProps>
+	<RowAttributes></RowAttributes>
+	<DbListActions type="array">
+	</DbListActions>
+</root>

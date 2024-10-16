@@ -1,0 +1,1 @@
+{include 'themes/b-metronic/index.tpl'}
